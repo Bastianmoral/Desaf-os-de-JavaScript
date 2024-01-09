@@ -1,0 +1,13 @@
+{
+    "name": "Javascript-challenges",
+    "version": "1.0.0",
+    "description": "Este repositorio contiene una serie de desafíos de programación en JavaScript",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "author": "Bastián Morla",
+    "devDependencies": {
+      "jest": "^29.6.1"
+    }
+  }

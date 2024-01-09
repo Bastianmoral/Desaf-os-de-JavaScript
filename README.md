@@ -1,7 +1,7 @@
 # Desafíos de JavaScript
 ## _Más de 70 JavaScript Challenges_
 
-Este repositorio contiene una serie de desafíos de programación en JavaScript. Algunos desafíos están completos, mientras que otros están en proceso o planeados para el futuro.
+Este repositorio contiene una serie de desafíos de programación en JavaScript. Algunos desafíos están completos, mientras que otros están en proceso o planeados para el futuro. cambio
 
 ## Índice
 
