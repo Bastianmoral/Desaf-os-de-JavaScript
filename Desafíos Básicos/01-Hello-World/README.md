@@ -1,6 +1,6 @@
 # Desafío: Ejemplo de Desafío "Hello World"
 
-Este es un desafío de práctica para mostrarte cómo están configuradas las cosas y cómo realizar pruebas, etc.
+Este es un desafío de práctica para mostrar cómo están configuradas las cosas y cómo realizar pruebas, etc.
 
 ## Instrucciones
 Escribe una función llamada `helloWorld` que devuelva la cadena '¡Hola Mundo!'.
