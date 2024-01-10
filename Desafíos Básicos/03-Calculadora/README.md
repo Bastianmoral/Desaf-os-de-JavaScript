@@ -3,18 +3,6 @@
 ## Instrucciones
 Escribe una función llamada calculadora que tome 2 números y un operador y devuelva el resultado del cálculo.
 
-### Firma de la Función
-
-```js
-/**
- * Devuelve el resultado de un cálculo.
- * @param {number} num1 - El primer número.
- * @param {number} num2 - El segundo número.
- * @param {string} operador - El operador a usar en el cálculo.
- * @returns {number} - El resultado del cálculo.
- */
-function calculator(num1: number, num2: number, operator: string): number;
-```
 
 ### Ejemplos
 
