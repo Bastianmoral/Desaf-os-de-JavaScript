@@ -1,4 +1,4 @@
-# Desafío: CContar Ocurrencias
+# Desafío: Contar Ocurrencias
 
 ## Instrucciones
 Escribe una función llamada `countOccurrences()` que reciba una cadena y un carácter, y devuelve el número de ocurrencias de ese carácter en la cadena.
