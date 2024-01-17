@@ -38,22 +38,6 @@ findMaxNumber([1, 2, 3, 4, 5, 10, 9, 8, 7, 6]); // 10
 function findMaxNumber(arr) {
   return Math.max(...arr);
 }
-
-// Versión que no distingue mayúsculas y minúsculas
-// function countOccurrences(str, char) {
-//   const lowerStr = str.toLowerCase();
-//   const lowerChar = char.toLowerCase();
-
-//   let count = 0;
-
-//   for (let i = 0; i < lowerStr.length; i++) {
-//     if (lowerStr[i] === lowerChar) {
-//       count++;
-//     }
-//   }
-
-//   return count;
-// }
 ```
 
 ### Explicación
