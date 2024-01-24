@@ -29,9 +29,7 @@ titleCase('HERE IS MY HANDLE HERE IS MY SPOUT'); // Here Is My Handle Here Is My
 
 <details>
   <summary>Haz clic para ver la Solución 1</summary>
-  Esta es la manera fácil de hacerlo. Hay un método llamado Math.max() que devolverá el número más grande en un arreglo. Esta no es la manera en la que sugeriría hacerlo, pero es bueno saber que este método existe.
 
-**Usando un switch:**
 ```JS
 function titleCase(str) {
   const words = str.toLowerCase().split(' ');
@@ -54,9 +52,7 @@ function titleCase(str) {
 
 <details>
   <summary>Haz clic para ver la Solución 2</summary>
-Aquí hay otra manera de resolverlo usando un bucle for.
 
-**Usando una declaración if:**
 ```JS
 function titleCase(str) {
   return str.replace(/\b\w/g, (coincidencia) => coincidencia.toUpperCase());
