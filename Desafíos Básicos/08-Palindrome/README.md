@@ -104,10 +104,9 @@ function reverseString(str) {
 Esta solución es un poco más compleja.
 
 
-- Create a helper function called `removeNonAlphanumeric` that takes in a string and returns a new string with all non-alphanumeric characters removed. We do this by looping through the string and checking if each character is alphanumeric with another helper function called `isAlphaNumeric`.
+- Crea una función auxiliar llamada `removeNonAlphanumeric` que toma una cadena y devuelve una nueva cadena con todos los caracteres no alfanuméricos eliminados. Hacemos esto recorriendo la cadena y comprobando si cada carácter es alfanumérico con otra función auxiliar llamada  `isAlphaNumeric`.
 - Crea una función auxiliar llamada  `removeNonAlphanumeric` que toma una cadena y devuelve una nueva cadena con todos los caracteres no alfanuméricos eliminados. Hacemos esto recorriendo la cadena y comprobando si cada carácter es alfanumérico con otra función auxiliar llamada `isAlphaNumeric`.
 - En la función `isAlphaNumeric` , usamos el método `charCodeAt` para obtener el código de carácter del carácter. Luego verificamos si el código de carácter está entre 48 y 57, que es el rango para los números 0-9, o si está entre 97 y 122, que es el rango para las letras minúsculas a-z. Si es así, devolvemos `true`. Si no es así, devolvemos `false`.
-
 - Una vez que tenemos una cadena solo con caracteres alfanuméricos, podemos invertirla y compararla con la cadena original para ver si es un palíndromo.
 
 </details>
