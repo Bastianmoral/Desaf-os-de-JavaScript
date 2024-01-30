@@ -6,7 +6,7 @@ function palindrome(str) {
   //Almacena el resultado en una variable llamada `formattedStr`.
   const formatedString = str.toLowerCase().replace(/[^a-z0-9]/g, "");
   //Invierte la cadena, igual que hicimos en el desafío anterior.
-  const reversedStr = formatedString.reverse("").split().join("");
+  const reversedStr = formatedString.split("").reverse().join("");
 
   //Compara la cadena original con la cadena invertida y devuelve el resultado.
   //Si es un palíndromo, las dos cadenas serán iguales, por lo que devolvemos `true`.
@@ -14,4 +14,4 @@ function palindrome(str) {
   return formatedString === reversedStr;
 }
 
-models.exports = palindrome;
+module.exports = palindrome;
